@@ -71,7 +71,7 @@ class EmailCommand extends ContainerAwareCommand
         	'username' => $user->getUsername()
         )), 'text/html');
         
-        $attachment = \Swift_Attachment::fromPath($path, 'application/zip')->setFilename('netrunnerdb.zip');
+        $attachment = \Swift_Attachment::fromPath($path, 'application/zip')->setFilename('magewarsdb.zip');
         $message->attach($attachment);
 
         $this->getContainer()->get('mailer')->send($message);

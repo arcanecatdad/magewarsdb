@@ -1,4 +1,4 @@
-netrunnerdb_index:
+magewarsdb_index:
     path: /{_locale}
     methods: [GET]
     defaults:

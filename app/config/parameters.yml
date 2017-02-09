@@ -1,0 +1,32 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: magewarsdbdotcom
+    database_user: 12116
+    database_password: eek0Ahbu8ahn
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: hostmaster@magewarsdb.com
+    mailer_password: 'rukai46494*'
+    locale: en
+    secret: HowAmINotMyself
+    long_cache: 86400
+    short_cache: 600
+    assets_version: 1
+    locale_names:
+        en: English
+        de: Deutsch
+        fr: Français
+        es: Español
+        it: Italiano
+        pl: Polskie
+        kr: 한국어
+        jp: 日本語
+        zh: 中文
+    supported_locales:
+        - en
+    oauth_test_client_id: null
+    oauth_test_client_secret: null
+    oauth_test_redirect_uri: null

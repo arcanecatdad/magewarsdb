@@ -106,7 +106,7 @@ class ModerationHelper
         $this->logger->debug($body);
         $message = Swift_Message::newInstance()
                 ->setSubject("Your decklist on NetrunnerDB")
-                ->setFrom("moderation@netrunnerdb.com", "NetrunnerDB Moderation Team")
+                ->setFrom("moderation@magewarsdb.com", "NetrunnerDB Moderation Team")
                 ->setTo($decklist->getUser()->getEmail())
                 ->setBody($body, 'text/html')
                 ;
